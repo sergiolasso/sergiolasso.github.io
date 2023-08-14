@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,36 +11,27 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 
-    <title>Pagina principal</title>
+    <title>Detalles del Equipo</title>
 
 </head>
 
 <body>
     <div class="container">
-        <h1>Personajes de Rick and Morty</h1>
-
-        <select class="form-select" aria-label="Default select example" id=seleccion>
-            <option selected>Elige genero</option>
-            <option value="Female">Male</option>
-            <option value="Male">Female</option>
-        </select>
-        <button id="buscardor" class="btn btn-success">Filtar</button>
-
+        <h1>Detalles</h1>
         <div class="row mt-4">
-            <div class="col-8">
-                <div class="row" id="cartas"></div>
-
+            <div class="col-4" id="Separacion">
+                <img src="" alt="">
             </div>
-            <div class="col-4" id="carrito">
-
-                <ul class="list-group">
-
-                </ul>
-
+            <div class="col-8" id="informacion">
+                <p id="id">ID: </p>
+                <p id="name">Nombre: </p>
+                <p id="especie">Especie: </p>
+                <p id="genero">Genero: </p>
             </div>
         </div>
     </div>
-    <script src="./utils/js/index.js"></script>
+
+    <script src="./utils/js/segunda.js"></script>
 </body>
 
 </html>
